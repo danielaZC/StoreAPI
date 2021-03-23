@@ -1,0 +1,7 @@
+﻿CREATE TABLE storedb.Products (
+	Id INT PRIMARY KEY,
+	Name VARCHAR(150) NOT NULL,
+	Description VARCHAR(500) NOT NULL,
+	Category VARCHAR(60) NOT NULL
+);
+
